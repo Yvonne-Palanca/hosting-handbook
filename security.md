@@ -97,7 +97,7 @@ Plugins and themes can modify existing, as well as add additional types of, user
 
 ## HTTPS and TLS / SSL
 
-WordPress is fully [compatible with HTTPS when an TLS / SSL certificate](https://make.wordpress.org/support/user-manual/web-publishing/https-for-wordpress/) is installed and available for the web server to use. Support for HTTPS is strongly recommended to help maintain the security of both WordPress logins and site visitors.
+WordPress is fully [compatible with HTTPS when an TLS / SSL certificate](https://wordpress.org/documentation/article/https-for-wordpress/) is installed and available for the web server to use. Support for HTTPS is strongly recommended to help maintain the security of both WordPress logins and site visitors.
 
 ## Caching Security
 
@@ -138,6 +138,7 @@ Redis is a lightweight, high-performance key-value database server commonly used
 
 ##### Redis databases
 
+
 Redis provides 16 databases, number 0 to 15 by default. Redis clients should be configured to use different databases instead of the default database (number 0). Redis can be configured to have additional databases, but that is outside the scope of this document.
 
 ##### Redis user credentials
@@ -159,7 +160,7 @@ Memcached is a memory object caching solution commonly used to provide database 
 ### WordPress Automatic Updates
 
 WordPress has the ability to automatically apply security updates. This should be enabled in almost all cases. The exception is if files are not writeable, outside of `wp-content/uploads`, for security reasons. In this instance, an alternative, expedient, and, preferably, automatic update process should be made available. See [Configuring Automatic Background Updates  
-](https://codex.wordpress.org/Configuring_Automatic_Background_Updates)for details on automatic update configuration.
+](https://wordpress.org/documentation/article/configuring-automatic-background-updates/)for details on automatic update configuration.
 
 [info]If you’re interested in improving this handbook, check the [Github Handbook repo](https://github.com/WordPress/hosting-handbook/), or leave a message in the [#hosting-community channel](https://wordpress.slack.com/archives/hosting-community/) of the official [WordPress Slack](https://make.wordpress.org/chat/).[/info]
 
